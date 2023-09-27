@@ -124,6 +124,55 @@ section .main-btn i{
 section .main-btn:hover i{
     transform: translateX(7px);
 }
+/*Product front page*/
+.product{
+    width: 100%;
+    height: 100;
+    padding: 70px 0;
+}
+.product .product_front{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.product .product_front .image img{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 60px;
+}
+.product .product_front .product_front_text h1 span{
+    color: #b5651d;
+    margin-right: 15px;
+    font-family: mv boli;
+}
+.product .product_front .product_front_text h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+}
+.product .product_front .product_front_text p{
+    width: 700px;
+    text-align: justify;
+    margin-right: 35px;
+    line-height: 22px;
+}
+.product .product_btn{
+    background-color:#FFEA00;
+    position: relative;
+    left: 48.5%;
+    bottom: -2px;
+    width: 120px;
+    cursor: pointer;
+    padding: 3px 10px;  
+}
+.product .product_btn i{
+    color:green;
+    transition: 0.3s;
+}
+.product .product_btn:hover i{
+    transform: translateX(7px);}
+
 /*About us*/
 .about{
     width: 100%;
@@ -160,13 +209,20 @@ section .main-btn:hover i{
     margin-right: 35px;
     line-height: 22px;
 }
+
 /*contact us*/
 .about .about_btn{
-    background-color: #FFEA00;
-    padding: 3px 10px;
-    text-decoration: none;
-    color: green;
+    background-color:#FFEA00;
     position: relative;
-    left: 37%;
-    bottom: 5px;
+    left: 48.5%;
+    bottom: -2px;
+    width: 120px;
+    cursor: pointer;
+    padding: 3px 10px;
 }
+.about .about_btn i{
+    color:green;
+    transition: 0.3s;
+}s
+.about .about_btn:hover i{
+    transform: translateX(7px);}
