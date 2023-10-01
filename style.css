@@ -160,8 +160,8 @@ section .main-btn:hover i{
 .product .product_btn{
     background-color:#FFEA00;
     position: relative;
-    left: 42%;
-    bottom: 5px;
+    left: 38%;
+    bottom: 50px;
     width: 120px;
     cursor: pointer;
     padding: 3px 10px;  
@@ -214,8 +214,8 @@ section .main-btn:hover i{
 .about .about_btn{
     background-color:#FFEA00;
     position: relative;
-    left: 41%;
-    bottom: -2px;
+    left: 37%;
+    bottom: 5px;
     width: 130px;
     cursor: pointer;
     padding: 3px 10px;
@@ -348,4 +348,27 @@ transform: scale(1.1);
     padding: 8px 10px;
     margin: 0 80px;
     transition: 0.3s;
+}
+/*Review*/
+.review{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+.review h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review h1 span{
+    margin-left: 15px;
+    color: #b5651d;
+    font-family: mv boli;
+}
+.review h1 span::after{
+  content:'';
+  width: 100%;
+  height: 2px;
+  
 }
