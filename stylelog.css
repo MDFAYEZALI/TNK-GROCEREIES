@@ -167,6 +167,7 @@ a.google span{
     opacity: 0.6;
     color: green;
 }
+
 @media  and (max-width:400px) {
     .form{
         padding:15px 10px;
@@ -230,5 +231,5 @@ section nav .icon i{
     transition: 0.3s;
 }
 section nav .icon i:hover{
-    color: green;
+    color: green;}
 
