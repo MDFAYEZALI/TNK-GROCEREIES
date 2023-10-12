@@ -8,8 +8,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
+    <section id="Home">
+        <nav>
+            <div class="logo">
+            <img src="image/Untitled_Artwork.png"  width="75" height="75">
+            </div>
+            <!-- lists -->
+            <ul>
+                <li><a href="index.html" style="color: green;">Home</a></li>
+            </ul>
+            <!-- icons  -->
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            <a href="login.html">
+                <i class="fa-regular fa-user"></i>
+            </a>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <br>
     <div class="container">
-         <form>
+         <form onsubmit="sendEmail(); reset(); return false">
             <h3>GET IN TOUCH</h3>
             <input type="text" id="name" placeholder="Your Name" required>
             <input type="email" id="email" placeholder="Email id" required>
@@ -18,5 +39,23 @@
             <button type="submit">Send</button>
          </form>
     </div>
+    </section>
+   <!--JavaScript-->
+<script src=" https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+          function sendEmail(){
+                    Email.send({
+            Host : "smtp.gmail.com",
+            Username : "fayezali2005@gmail.com",
+            Password : "sports2017",
+            To : 'fayezali2017@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "New Contact Form Enquiry",
+            Body : "And this is the body"
+        }).then(
+        message => alert(message)
+        );
+        }
+    </script>
 </body>
 </html>
