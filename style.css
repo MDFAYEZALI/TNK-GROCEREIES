@@ -124,7 +124,7 @@ section .main-btn i{
 section .main-btn:hover i{
     transform: translateX(7px);
 }
-/*Product front page
+/*Product front page*/
 .product{
     width: 100%;
     height: 100%;
@@ -171,7 +171,7 @@ section .main-btn:hover i{
     transition: 0.3s;
 }
 .product .product_btn:hover i{
-    transform: translateX(7px);}*/
+    transform: translateX(7px);}
 
 /*About us*/
 .about{

@@ -12,6 +12,10 @@ header{
     grid-template-columns: 1fr 50px;
     margin-top: 50px;
 }
+.container h1 {
+    text-align: center;
+    font-size: 35px;
+}
 .container h1 span{
     font-family: mv boli;
     color: #b5651d;
