@@ -65,3 +65,55 @@ transition: 0.3s linear;
     opacity: 0.6;
 }
 
+/* box of main page */
+section nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: #ffffff;
+    box-shadow: 0 0 10px black;
+    z-index: 1000;
+}
+section nav ul{
+    list-style: none;
+}
+/* lists */
+section nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+
+}
+section nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    transition:0.2s;
+}
+section nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: green;
+    display: block;
+    transition: 0.3s;
+}
+section nav ul li a:hover::after{
+width: 100%;
+}
+section nav ul li a:hover{
+    color: green;
+}
+/* icons */
+section nav .icon i{
+    font-size: 20px;
+    color: black;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+section nav .icon i:hover{
+    color: green;}
