@@ -58,7 +58,7 @@ transition: 0.3s linear;
     width: 100px;
 }
 .grey-btn{
-    background-color:  rgb(255, 0, 0);
+    background-color:rgb(255, 0, 0);
     width: 100px;
 }
 .btn:hover{
@@ -118,13 +118,3 @@ section nav .icon i{
 section nav .icon i:hover{
     color: green;}
 
-    @media only screen and (max-width: 800px){
-        .terms-box{
-            max-width: 430px;
-            background-color:#b5651d;
-            color: rgb(0, 0, 0);
-            font-family: Montserrat;
-            padding: 50px 20px;
-            position: absolute;
-        }   
-    }
