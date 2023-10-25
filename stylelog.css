@@ -233,3 +233,6 @@ section nav .icon i{
 section nav .icon i:hover{
     color: green;}
 
+    @media only screen and (max-width: 800px){
+        
+    }

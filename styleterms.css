@@ -71,7 +71,7 @@ section nav{
     justify-content:space-around;
     align-items: center;
     position: fixed;
-    right: 0;
+    right: 10;
     left: 0;
     background: #ffffff;
     box-shadow: 0 0 10px black;
@@ -117,3 +117,14 @@ section nav .icon i{
 }
 section nav .icon i:hover{
     color: green;}
+
+    @media only screen and (max-width: 800px){
+        .terms-box{
+            max-width: 430px;
+            background-color:#b5651d;
+            color: rgb(0, 0, 0);
+            font-family: Montserrat;
+            padding: 50px 20px;
+            position: absolute;
+        }   
+    }
